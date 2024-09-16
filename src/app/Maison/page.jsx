@@ -8,7 +8,7 @@ import Footer from "../component/Footer/Footer";
 import { FaShoppingCart } from "react-icons/fa";
 import Link from "next/link";
 
-export default function () {
+export default function Maison () {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     AutoScroll({ startDelay: 1000, speed: 1 }),
   ]);
@@ -62,12 +62,12 @@ export default function () {
         <div className={styles.column}>
           <h1 className={styles.h1}>Le Lieu</h1>
           <p className={styles.paragraph}>
-            Nous ne vous proposons pas seulement l’organisation de votre
+            Nous ne vous proposons pas seulement l&apos;organisation de votre
             événement, <br /> mais nous nous engageons également à vous trouver
-            le lieu idéal en s’appliquant à respecter votre cahier des charges.{" "}
+            le lieu idéal en s&apos;appliquant à respecter votre cahier des charges.{" "}
             <br />
-            Le Site de l’événementiel a sélectionné pour vous une multitude
-            d’espaces parisiens : tous aussi atypiques les uns que les autres.{" "}
+            Le Site de l&apos;événementiel a sélectionné pour vous une multitude
+            d&apos;espaces parisiens : tous aussi atypiques les uns que les autres.{" "}
             <br /> Que vous recherchiez plus une péniche ou une adresse “comme à
             la maison”, découvrez nos espaces partenaires.
           </p>
@@ -124,7 +124,7 @@ export default function () {
                 <h1 className={styles.h2}>Le Traiteur</h1>
                 <p className={styles.one}>
                   Trouver le lieu idéal est une chose, faire de <br /> votre
-                  événement un moment inoubliable en <br /> est une autre. C’est
+                  événement un moment inoubliable en <br /> est une autre. C&apos;est
                   en collaboration avec nos <br /> partenaires que nous vous
                   proposons une <br /> formule clef en main et sur-mesure : du
                   cocktail <br /> au diner assis, animations culinaires, ou
@@ -136,7 +136,7 @@ export default function () {
               </div>
             </div>
           </div>
-          <h1 className={styles.h1}>L' animation</h1>
+          <h1 className={styles.h1}>L&apos; animation</h1>
 
           <div className={styles.embla} ref={emblaRef}>
             <div className={styles.emblaContainer}>
@@ -182,18 +182,18 @@ export default function () {
                 <div className={styles.boxes}>
                   <div className={styles.line}>
                     <h1 className={styles.h2}> Vos Events </h1>
-                    <p className={styles.para}>
+                    {/* <p className={styles.para}>
                       Vous souhaitez organiser un événement professionnel <br />{" "}
                       ou étudiant ou tout simplement louer une salle ?Le site de
-                      l’événementiel trouvera tout ce qu’il <br /> vous faut
+                      l&apos;événementiel trouvera tout ce qu&apos;il <br /> vous faut
                       pour que votre événement soit parfait. <br />
                       <span className={styles.span}>
-                        Soirées d’Entreprise –Séminaires – Lancements de
+                        Soirées d&apos;Entreprise –Séminaires – Lancements de
                         Produits – Team <br /> Building Soiré Étudiantes – Galas
-                        – Rallyes Dansant – Wei & Séjours .😉"
+                        – Rallyes Dansant – Wei & Séjours ."
                       </span>
-                    </p>
-                    <button className={styles.btn}>J'ORGANISE MON EVENT</button>
+                    </p> */}
+                    <button className={styles.btn}>J&apos;ORGANISE MON EVENT</button>
                   </div>
                 </div>
               </div>
@@ -217,7 +217,7 @@ export default function () {
                     <br />
                     politique RSE (Responsabilité Sociale des Entreprises) ainsi{" "}
                     <br />
-                    qu’à sa mise en oeuvre. Depuis notre création en 2007, nous{" "}
+                    qu&apos;à sa mise en oeuvre. Depuis notre création en 2007, nous{" "}
                     <br />
                     développons une politique responsable et durable, et ce en{" "}
                     <br />
@@ -228,16 +228,16 @@ export default function () {
                   <button className={styles.buttons}> Politique RSE</button>
                 </div>
                 <div className={styles.Img}>
-                  <h5 className={styles.h5}>Reforest’Action</h5>
+                  <h5 className={styles.h5}>Reforest&apos;Action</h5>
                   <p className={styles.one}>
                     Outre notre politique RSE, nous nous sommes engagés auprès{" "}
                     <br />
-                    de l’entreprise Reforest’Action : un arbre planté par <br />
+                    de l&apos;entreprise Reforest&apos;Action : un arbre planté par <br />
                     événement organisé ! Le projet étant de restaurer et <br />
-                    encourager la reforestation en faveur d’un monde plus <br />
+                    encourager la reforestation en faveur d&apos;un monde plus <br />
                     durable.
                   </p>
-                  <button className={styles.buttons}>Reforest’Action</button>
+                  <button className={styles.buttons}>Reforest&apos;Action</button>
                 </div>
               </div>
             </div>
@@ -248,13 +248,13 @@ export default function () {
               <div className={styles.Image}>
                 <h1 className={styles.h2}>Nos references</h1>
                 <p className={styles.four}>
-                  Le site de l’événementiel a eu l’immense plaisir et honneur de
-                  travailler <br /> avec un grand nombre d’agences et
+                  Le site de l&apos;événementiel a eu l&apos;immense plaisir et honneur de
+                  travailler <br /> avec un grand nombre d&apos;agences et
                   entreprises, tous corps de métiers <br /> confondus. Recherche
-                  de salle ou organisation d’événement, ils se sont <br />{" "}
-                  tournés vers nous et nous ont fait confiance. C’est avec
+                  de salle ou organisation d&apos;événement, ils se sont <br />{" "}
+                  tournés vers nous et nous ont fait confiance. C&apos;est avec
                   énormément de <br /> reconnaissance que nous les citons
-                  aujourd’hui.
+                  aujourd&apos;hui.
                 </p>
                 <button className={styles.buttons}>Nos references </button>
               </div>
