@@ -32,7 +32,7 @@ export default function Users() {
         <div className={styles.column}>
           <h1 className={styles.h1}>ACTUALITÉS</h1>
           <p className={styles.paragraph}>
-            Explorez notre variété d'inspiration et faites votre choix...
+            Explorez notre variété d&apos;inspiration et faites votre choix...
           </p>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Users() {
           </div>
           <div className={styles.content}>
             <div className={styles.title}>
-          <h2>Faites en sorte que quelqu'un se sente spécial. Meilleur partenaire pour cette mission.</h2>
+          <h2>Faites en sorte que quelqu&apos;un se sente spécial. Meilleur partenaire pour cette mission.</h2>
           </div>
           </div>
         </div>

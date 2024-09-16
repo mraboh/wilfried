@@ -39,13 +39,13 @@ const Navbar = () => {
         Services{" "}
         </Link>
       
-        <Link href={"Dashboard"} className={styles.link}>
-        Dashboard{" "}
-        </Link>
+     
         <Link href={"/Contact"} className={styles.link}>
           Contact{" "}
         </Link>
-      
+        <Link href={"Dashboard"} className={styles.link}>
+        Dashboard{" "}
+        </Link>
       </div>
 
     

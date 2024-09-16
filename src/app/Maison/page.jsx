@@ -24,18 +24,17 @@ export default function () {
         <div className={styles.centralize}>
           <div className={styles.header}>
             <div className={styles.headerNav}>
-              <Link href={'Dashboard'}>
-            <FaShoppingCart className={styles.icon}/>
-            </Link>
-              < Link href={styles.nav}>Mariages</ Link>
-              < Link href={styles.nav}>Anniversaires</ Link>
-              < Link href={styles.nav}>Fetes</ Link>
-              < Link href={styles.nav}>Nos events</ Link>
-              < Link href={styles.nav}>Nos salles</ Link>
-              < Link href={styles.nav}>Nos offres</ Link>
-              < Link href={styles.nav}>Nos animations</ Link>
+              <Link href={"Dashboard"}>
+                <FaShoppingCart className={styles.icon} />
+              </Link>
+              <Link href={styles.nav}>Mariages</Link>
+              <Link href={styles.nav}>Anniversaires</Link>
+              <Link href={styles.nav}>Fetes</Link>
+              <Link href={styles.nav}>Nos events</Link>
+              <Link href={styles.nav}>Nos salles</Link>
+              <Link href={styles.nav}>Nos offres</Link>
+              <Link href={styles.nav}>Nos animations</Link>
             </div>
-           
           </div>
 
           <div className={styles.boxContain}>
@@ -52,17 +51,12 @@ export default function () {
               </p>
             </div>
             <div className={styles.btns}>
-            
-              <button>Traduire (French)
-              
-              </button>
+              <button>Traduire (French)</button>
               <button className={styles.width}>Voir la source</button>
-              
-            </div> 
+            </div>
           </div>
         </div>
       </div>
-    
 
       <div className={styles.number}>
         <div className={styles.column}>
@@ -110,7 +104,11 @@ export default function () {
             </div>
             <div className={styles.line}>
               <div className={styles.imgBox}>
-                <Image src="/WhatsApp Image 2024-09-13 à 16.16.36_59209a36.jpg" width={320} height={400} />
+                <Image
+                  src="/WhatsApp Image 2024-09-13 à 16.16.36_59209a36.jpg"
+                  width={320}
+                  height={400}
+                />
               </div>
             </div>
             <div className={styles.line}>
@@ -186,9 +184,9 @@ export default function () {
                     <h1 className={styles.h2}> Vos Events </h1>
                     <p className={styles.para}>
                       Vous souhaitez organiser un événement professionnel <br />{" "}
-                      ou étudiant ou tout simplement louer une salle ?Le
-                      site de l’événementiel trouvera tout ce qu’il <br /> vous
-                      faut pour que votre événement soit parfait. <br />
+                      ou étudiant ou tout simplement louer une salle ?Le site de
+                      l’événementiel trouvera tout ce qu’il <br /> vous faut
+                      pour que votre événement soit parfait. <br />
                       <span className={styles.span}>
                         Soirées d’Entreprise –Séminaires – Lancements de
                         Produits – Team <br /> Building Soiré Étudiantes – Galas
@@ -264,19 +262,17 @@ export default function () {
               <div className={styles.Images}>
                 <div className={styles.logos}>
                   <Image src="/ford.png" width={100} height={100} />
-                  </div>
-                  <div className={styles.logos}>
-                  <Image src="/heineken.png" width={100} height={100} />
-                  </div>
-                  <div className={styles.logos}>
-                  <Image src="/levis.png" width={100} height={100} />
-                  </div>
-                  <div className={styles.logos}>
-                  <Image src="/macdo.png" width={100} height={100} />
-               
-              </div>
-              
                 </div>
+                <div className={styles.logos}>
+                  <Image src="/heineken.png" width={100} height={100} />
+                </div>
+                <div className={styles.logos}>
+                  <Image src="/levis.png" width={100} height={100} />
+                </div>
+                <div className={styles.logos}>
+                  <Image src="/macdo.png" width={100} height={100} />
+                </div>
+              </div>
             </div>
           </div>
         </div>

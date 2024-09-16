@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function () {
+export default function Footer() {
   return (
     <>
       <div className={styles.container}>
@@ -15,12 +15,12 @@ export default function () {
         </Link>
         <h1 className={styles.h2}>
           QUI SOMMES-NOUS? <br />
-          Le Site de l’Événementiel met <br /> tout son savoir faire pour vous
+          Le Site de l&apos;Événementiel met <br /> tout son savoir faire pour vous
           dénicher le lieu idéal pour <br />
-          vos événements, et ce quelqu’en soit la typologie. <br /> OÙ
+          vos événements, et ce quelqu&apos;en soit la typologie. <br /> OÙ
           SOMMES-NOUS? <br />
-          C’est principalement à Douala que nous travaillons : nous recensons
-          aujourd’hui plus de 1000 adresses Camerounaises. <br /> - À propos de
+          C&apos;est principalement à Douala que nous travaillons : nous recensons
+          aujourd&apos;hui plus de 1000 adresses Camerounaises. <br /> - À propos de
           nous <br /> - Notre Politique RSE <br /> - Nos salles
         </h1>
 

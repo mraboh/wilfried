@@ -2,7 +2,7 @@
 import { useState } from "react";
 import styles from "./page.module.css";
 
-export default function Dashboard() {
+export default function Page() {
   const [activeTab, setActiveTab] = useState("Evenements");
   const [users, setUsers] = useState([
     { id: 1, name: "Seven", email: "Seven@gmail.com" },
@@ -242,7 +242,7 @@ function Retard() {
     <div>
       <h2> Retard</h2>
       <p>
-      Prévoir des prestataires alternatifs en cas de défaillance d'un fournisseur principal, afin de ne pas être pris au dépourvu
+      Prévoir des prestataires alternatifs en cas de défaillance d&apos;un fournisseur principal, afin de ne pas être pris au dépourvu
       </p>
       <ul>
         <li>Cause du retard</li>
